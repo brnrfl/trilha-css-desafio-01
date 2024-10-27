@@ -1,4 +1,4 @@
-@import url(reset.css);
+@import url("reset.css");
 * {
     font-family: Raleway, serif;
     font-optical-sizing: auto;
@@ -21,11 +21,11 @@ body {
 }
 .banner {
     box-sizing: border-box;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 169, 221, 0.2), rgba(0, 0, 0, 0.6)), url(../images/banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 169, 221, 0.2), rgba(0, 0, 0, 0.6)), url("../images/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    width: 100vw;
+    width: 100%;
     border-bottom: 1px solid #33A8DB;
     min-height: fit-content;
 }
@@ -95,8 +95,8 @@ span {
 
 
 #transform-world {
-    width: 100vw;
-    background-image: url(../images/woman-code.png);
+    width: 100%;
+    background-image: url("../images/woman-code.png");
     object-fit: cover;
     border-bottom: 1px solid #33A8DB;
     border-top: 1px solid #33A8DB;
@@ -104,7 +104,7 @@ span {
     padding-bottom: 6rem;
     background-attachment: fixed;
     min-height: fit-content;
-    background-size: 100vw;
+    background-size: 100%;
 }
 #transform-world p {
     font-size: 2rem;
@@ -132,7 +132,7 @@ span {
 
 
 footer {
-    width: 100vw;
+    width: 100%;
     min-height: fit-content;
     border-top: 1px solid #33A8DB;
     margin: auto;
@@ -141,7 +141,6 @@ footer {
     padding-bottom: 2rem;
     font-size: 12px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 169, 221, 0.2));
-    background-position: bottom;
 }
 footer img {
     scale: 0.75;
