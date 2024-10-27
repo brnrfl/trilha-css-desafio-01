@@ -1,4 +1,4 @@
-@import url(/assets/css/reset.css);
+@import url(reset.css);
 * {
     font-family: Raleway, serif;
     font-optical-sizing: auto;
@@ -21,7 +21,7 @@ body {
 }
 .banner {
     box-sizing: border-box;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 169, 221, 0.2), rgba(0, 0, 0, 0.6)), url(/assets/images/banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 169, 221, 0.2), rgba(0, 0, 0, 0.6)), url(../images/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -96,7 +96,7 @@ span {
 
 #transform-world {
     width: 100vw;
-    background-image: url(/assets/images/woman-code.png);
+    background-image: url(../images/woman-code.png);
     object-fit: cover;
     border-bottom: 1px solid #33A8DB;
     border-top: 1px solid #33A8DB;
